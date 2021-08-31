@@ -48,9 +48,15 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'tourism' => [
+            'driver' => 'local',
+            'root' => public_path('asset/images/tourism'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
+            'root' => storage_path('asset/images/'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],

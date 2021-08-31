@@ -26,4 +26,25 @@ public function sendResponse($result,$message){
         return response()->json($response,$code);
 
     }
+    public function success($message,$id=null){
+    $success=[
+        'statue'=>'true',
+        'message'=>$message,
+
+    ];
+    if($id!==null){
+        $success['id']=$id;
+    }
+    return response()->json($success);
+
+    }
+    public function errors($message){
+        $fails=[
+            'statue'=>'false',
+            'message'=>$message
+        ];
+        return response()->json($fails);
+
+    }
+
 }

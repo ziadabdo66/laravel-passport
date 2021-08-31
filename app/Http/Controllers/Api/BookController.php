@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Admin;
 use App\Book;
 use App\Http\Controllers\Controller;
 use Validator;
@@ -65,6 +66,14 @@ class BookController extends Controller
         return $this->sendResponse($book->toArray,'book is updated');
 
 
+    }
+    public function user_book(Request $request){
+        $admin=auth('Admin-api')->user()->id;
+        $admin=Admin::find($admin);
+        foreach ($request->book_id as $book) {
+             $admin->books()->attach($book);
+        }
+        return $this->sendResponse($admin,'userbook is created');
     }
 
 }

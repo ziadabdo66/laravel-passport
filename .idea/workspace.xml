@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07a8fbe-4a81-4765-a485-83a051ebb5d4" name="Default Changelist" comment="" />
+    <list default="true" id="a07a8fbe-4a81-4765-a485-83a051ebb5d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Traits/saveimages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/createCopy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/createEdit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminRegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminRegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/GeneralTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/GeneralTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +25,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -129,6 +147,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1x2WJlbeev5AAn3SAdpyed6kYVb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -137,7 +156,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,6 +168,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Apis\resources\views" />
+      <recent name="C:\wamp64\www\Apis\app\Traits" />
       <recent name="C:\wamp64\www\Apis\app\Http\Controllers\Api" />
       <recent name="C:\wamp64\www\Apis\app" />
     </key>
@@ -179,11 +200,46 @@
       <workItem from="1629581487234" duration="1749000" />
       <workItem from="1629583287529" duration="1460000" />
       <workItem from="1629585098229" duration="1796000" />
-      <workItem from="1629586927456" duration="887000" />
+      <workItem from="1629586927456" duration="1553000" />
+      <workItem from="1629632180607" duration="641000" />
+      <workItem from="1629636664055" duration="1770000" />
+      <workItem from="1629638472347" duration="806000" />
+      <workItem from="1629651200154" duration="1237000" />
+      <workItem from="1629652473420" duration="2385000" />
+      <workItem from="1629656487496" duration="730000" />
+      <workItem from="1629720032277" duration="1621000" />
+      <workItem from="1629721696495" duration="1664000" />
+      <workItem from="1629724431124" duration="10000" />
+      <workItem from="1629909669407" duration="1744000" />
+      <workItem from="1629911457913" duration="1509000" />
+      <workItem from="1629913396894" duration="405000" />
+      <workItem from="1629915774716" duration="1885000" />
+      <workItem from="1629917911929" duration="1777000" />
+      <workItem from="1629919781012" duration="1778000" />
+      <workItem from="1629921676502" duration="1786000" />
+      <workItem from="1629923565962" duration="1485000" />
+      <workItem from="1629925394342" duration="2168000" />
+      <workItem from="1630089570475" duration="675000" />
+      <workItem from="1630254881907" duration="1634000" />
+      <workItem from="1630256580286" duration="1781000" />
+      <workItem from="1630258403455" duration="1788000" />
+      <workItem from="1630260217535" duration="872000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
