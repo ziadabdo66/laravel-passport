@@ -30,6 +30,7 @@ Route::middleware('auth:api')->group(function () {
 Route::middleware('auth:Admin-api')->group(function () {
     Route::post('createBook','Api\BookController@create_book');
     Route::get('indexBook','Api\BookController@index');
+    Route::post('userBook','Api\BookController@user_book');
 
 
 });

@@ -20,12 +20,14 @@ class AdminRegisterController extends Controller
       if($validate->fails()){
           return $this->sendError('error validate',$validate->errors());
       }
-      $input=$request->all();
-      $input['password']=bcrypt($input['password']);
-      $admin=Admin::create($input);
-      $success['success_token']=$admin->createToken('MyApp')->accessToken;
-      $success['name']=$admin->name;
-       return $this->sendResponse($success,'user is created');
+//      $input=$request->all();
+//      $input['password']=bcrypt($input['password']);
+       $request->merge(['password' => $request->password]);
+      $admin=Admin::create($request->all());
+
+      $token =  $admin->createToken('MyApp')->accessToken;
+
+       return $this->sendResponse([$admin,$token],'user is created');
 
 
    }
@@ -43,4 +45,5 @@ class AdminRegisterController extends Controller
             return $this->sendError(['error' => 'UnAuthorised'], 401);
         }
     }
+
 }
